@@ -10,10 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nconf": "^0.8.5"
-  },
-  "devDependencies": {
+    "nconf": "^0.8.5",
     "path-to-regexp": "^3.0.0",
-    "puppeteer-chromium-resolver": "^1.0.11"
+    "puppeteer-chromium-resolver": "^1.0.11"    
   }
 }
