@@ -5,7 +5,6 @@ const publisher = require('./service/publish');
 const nconf = require('nconf');
 const path = require('path');
 const options = require('./.weiboer.js') || {};
-const fs = require('fs');
 
 function init(pathToConfig) {
   nconf.argv()
