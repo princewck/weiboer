@@ -8,6 +8,9 @@ const options = require('../.weiboer.js') || {};
 async function login(page) {
   const username = nconf.get('username');
   const password = nconf.get('password');
+  if (!username || !password) {
+    throw new Error('username and password is missing!');
+  }
   await page.setUserAgent(options.default_ua);
 
   const loginStat = await checkSession(page);
