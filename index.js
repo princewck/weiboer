@@ -27,7 +27,7 @@ async function publish(text, pictures) {
     revision: "",
     detectionPath: "",
     // folderName: '.chromium-browser-snapshots',
-    hosts: ["https://storage.googleapis.com", "https://npm.taobao.org/mirrors"],
+    hosts: ["https://npm.taobao.org/mirrors", "https://storage.googleapis.com"],
     retry: 3
   });
   const { puppeteer, executablePath } = revisionInfo;
