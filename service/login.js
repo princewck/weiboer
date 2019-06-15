@@ -11,6 +11,7 @@ async function login(page) {
   if (!username || !password) {
     throw new Error('username and password is missing!');
   }
+  console.log('ua', options.default_ua);
   await page.setUserAgent(options.default_ua);
 
   const loginStat = await checkSession(page);
