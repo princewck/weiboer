@@ -1,6 +1,9 @@
 ## Description
 一个用于自动发送微博的小插件
 
+> headless: false时效果图：
+![](./demo.gif)
+
 ## Install
 ```sh
 npm i weiboer --save
