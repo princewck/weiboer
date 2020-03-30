@@ -1,3 +1,6 @@
+https://github.com/princewck/weiboer
+
+
 ## Description
 一个用于自动发送微博的小插件
 
